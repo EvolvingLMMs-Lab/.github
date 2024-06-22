@@ -17,7 +17,7 @@ To gauge how advanced these models are, we use a variety of evaluation benchmark
 ## [LLaVA-NeXT](https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/)
 
 <p align="center">
-    <img src="./assets/llava-next.png" width="60%">
+    <img src="./assets/llava-next.png" width="75%">
 </p>
 
 We expanded the LLaVA-NeXT series with recent stronger open LLMs, reporting our findings on more capable language models:
@@ -30,7 +30,7 @@ We report detailed ablations, including architectural modifications, enlarged vi
 ## [LLaVA-NeXT-Video](https://llava-vl.github.io/blog/2024-04-30-llava-next-video/)
 
 <p align="center">
-    <img src="./assets/llava-next-video.png" width="60%">
+    <img src="./assets/llava-next-video.png" width="100%">
 </p>
 
 We explore LLaVA-NeXT's capabilities in video understanding tasks, highlighting its strong performance. Key improvements include:
