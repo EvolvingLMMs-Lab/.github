@@ -1,12 +1,15 @@
-## Hi there 👋
+## LMMs-Lab: Building Multimodal Intelligence
 
-<!--
+We are a group of researchers on multimodal models. We wish to bring insights to community with our research.
 
-**Here are some ideas to get you started:**
+Here're a few of our projects.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
+
+<p align="center">
+    <img src="assets/images/niah_output/LongVA-7B/heatmap.png" width="800">
+</p>
+
+We're on an exciting journey toward creating Artificial General Intelligence (AGI), much like the enthusiasm of the 1960s moon landing. This journey is powered by advanced large language models (LLMs) and large multimodal models (LMMs), which are complex systems capable of understanding, learning, and performing a wide variety of human tasks.
+
+To gauge how advanced these models are, we use a variety of evaluation benchmarks. These benchmarks are tools that help us understand the capabilities of these models, showing us how close we are to achieving AGI. To address this challenge, we introduce lmms-eval, an evaluation framework meticulously crafted for consistent and efficient evaluation of LMM.
