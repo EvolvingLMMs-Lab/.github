@@ -7,7 +7,7 @@ Here're a few of our projects.
 ## [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
 <p align="center">
-    <img src="./assets/lmss-eval.png" width="60%">
+    <img src="https://i.postimg.cc/KvkLzbF9/WX20241212-014400-2x.png" width="60%">
 </p>
 
 We're on an exciting journey toward creating Artificial General Intelligence (AGI), much like the enthusiasm of the 1960s moon landing. This journey is powered by advanced large language models (LLMs) and large multimodal models (LMMs), which are complex systems capable of understanding, learning, and performing a wide variety of human tasks.
