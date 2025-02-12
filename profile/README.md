@@ -18,16 +18,16 @@ To gauge how advanced these models are, we use a variety of evaluation benchmark
 ## [VideoMMMU](https://github.com/EvolvingLMMs-Lab/VideoMMMU)
 
 <p align="center">
-    <img src="./assets/figures/figure_1.png" width="80%" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="./assets/videommmu.png" width="75%">
 </p>
 
 VideoMMMU is a multi-modal, multi-disciplinary video benchmark that evaluates the knowledge acquisition capability from educational videos.
 
 Our dataset comprises 300 lecture-style videos spanning 6 professional disciplines: Art, Business, Science, Medicine, Humanities, and Engineering, with 30 subjects distributed among them.
 
-VideoMMMU features Knowledge Acquisition-based Question Design. Each video includes three question-answer pairs aligned with the three knowledge acquisition stages: Perception (identifying key information related to the knowledge), Comprehension (understanding the underlying concepts), and Adaptation (applying knowledge to new scenarios).
+VideoMMMU features a Knowledge Acquisition-based Question Design. Each video includes 3 question-answer pairs aligned with the three knowledge acquisition stages: Perception (identifying key information related to the knowledge), Comprehension (understanding the underlying concepts), and Adaptation (applying knowledge to new scenarios).
 
-Video proposes a knowledge acquisition metric, denoted as <i>&Delta;<sub>knowledge</sub></i>, to measure performance gains on practice exam questions after learning from videos. This metric enables us to quantitatively evaluate how effectively LMMs can assimilate and utilize the information presented in the videos to solve real-world, novel problems.
+VideoMMMU proposes a knowledge acquisition metric (<i>&Delta;<sub>knowledge</sub></i>) to measure performance gains on practice exam questions after learning from videos. This metric enables us to quantitatively evaluate how effectively LMMs can assimilate and utilize the information presented in the videos to solve real-world, novel problems.
 
 
 ## [LLaVA-NeXT](https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/)
