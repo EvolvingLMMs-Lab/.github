@@ -18,7 +18,7 @@ To gauge how advanced these models are, we use a variety of evaluation benchmark
 ## [VideoMMMU](https://github.com/EvolvingLMMs-Lab/VideoMMMU)
 
 <p align="center">
-    <img src="./assets/videommmu.png" width="75%">
+    <img src="./assets/figures/figure_1.png" width="80%" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </p>
 
 VideoMMMU is a multi-modal, multi-disciplinary video benchmark that evaluates the knowledge acquisition capability from educational videos.
