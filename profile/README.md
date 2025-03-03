@@ -3,6 +3,7 @@
 We are a group of researchers, with a focus on large multimodal models (LMMs). We wish to bring insights to community with our research. 
 
 Here're a few of our projects.
+> We are reaching in total 8k stars of our open-sourced repos!
 
 ## [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
