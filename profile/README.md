@@ -5,6 +5,14 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 Here're a few of our projects.
 > We are reaching in total 8k stars of our open-sourced repos!
 
+## [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)
+
+<p align="center">
+    <img src="https://github.com/EvolvingLMMs-Lab/open-r1-multimodal/blob/main/assets/lmm_r1.png" width="60%">
+</p>
+
+We conducted a speed-run on to investigate R1's paradigm in multimodal models after observing growing interest in R1 and studying the elegant implementation of the GRPO algorithm in `open-r1` and `trl`.
+
 ## [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
 <p align="center">
