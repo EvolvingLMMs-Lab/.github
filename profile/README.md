@@ -2,8 +2,7 @@
 
 We are a group of researchers, with a focus on large multimodal models (LMMs). We wish to bring insights to community with our research. 
 
-Here're a few of our projects.
-> We are reaching in total 8k stars of our open-sourced repos!
+![GitHub User's stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab)
 
 ## [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)
 
