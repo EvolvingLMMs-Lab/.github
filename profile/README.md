@@ -4,6 +4,15 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 
 ![GitHub User's stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab)
 
+
+## [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife)
+
+<p align="center">
+    <img src="https://github.com/EvolvingLMMs-Lab/EgoLife/raw/main/assets/egolife_teaser.png" width="60%">
+</p>
+
+For one week, six individuals lived together, capturing every moment through AI glasses, and creating the EgoLife dataset. Based on this, we build models and benchmarks to drive the future of AI life assistants that are capable of recalling past events, tracking habits, and providing personalized, long-context assistance to enhance daily life.
+
 ## [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)
 
 <p align="center">
