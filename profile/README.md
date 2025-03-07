@@ -11,7 +11,7 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
     <img src="https://github.com/EvolvingLMMs-Lab/EgoLife/raw/main/assets/egolife_teaser.png" width="60%">
 </p>
 
-For one week, six individuals lived together, capturing every moment through AI glasses, and creating the EgoLife dataset. Based on this, we build models and benchmarks to drive the future of AI life assistants that are capable of recalling past events, tracking habits, and providing personalized, long-context assistance to enhance daily life.
+For one week, six individuals lived together, capturing every moment through AI glasses, and creating the EgoLife dataset. Based on this, we build models and benchmarks to drive the future of AI life assistants that are capable of recalling past events, tracking habits, and providing personalized, long-context assistance to enhance daily life. This multi-personal, multi-view, multimodal, long-term setting is just the beginning—unlocking new frontiers for AI assistants with true deeper understanding. 🚀
 
 ## [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)
 
