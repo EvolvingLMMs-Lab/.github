@@ -4,6 +4,23 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 
 ![GitHub User's stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab)
 
+## [LLaVA-OneVision 1.5](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5/tree/main)
+
+<div align="left">
+
+🤗 **[Models and Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-15-68d385fe73b50bd22de23713)** |
+🖥️ **[Demo](https://huggingface.co/spaces/lmms-lab/LLaVA-OneVision-1.5)** |
+📄 **[Tech Report(coming soon)]**
+
+<p align="center">
+    <img src="https://i.postimg.cc/Z5QSvCgK/Pix-Pin-2025-09-26-10-24-07.png" width="80%">
+</p>
+
+<p align="center">
+    <img src="https://i.postimg.cc/xC622YZX/Pix-Pin-2025-09-26-10-23-56.png" width="80%">
+</p>
+
+</div>
 
 ## [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife)
 
