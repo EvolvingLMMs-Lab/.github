@@ -8,17 +8,47 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 
 <div align="left">
 
+    
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5/blob/main/asset/llava_onevision_black.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5/blob/main/asset/llava_onevision_white.png">
+    <img alt="LLaVA-OneVision 1.5" src="https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5/blob/main/asset/llava_onevision_white.png" width="600" style="max-width: 100%;">
+  </picture>
+</p>
+
+<div align="left">
+
 🤗 **[Models and Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-15-68d385fe73b50bd22de23713)** |
 🖥️ **[Demo](https://huggingface.co/spaces/lmms-lab/LLaVA-OneVision-1.5)** |
-📄 **[Tech Report(coming soon)]**
+📄 **[Tech Report](https://github.com/anxiangsir/asset/blob/main/paper/LLaVA_OneVision_1_5.pdf)**
 
-<p align="center">
-    <img src="https://i.postimg.cc/Z5QSvCgK/Pix-Pin-2025-09-26-10-24-07.png" width="80%">
-</p>
+</div>
 
-<p align="center">
-    <img src="https://i.postimg.cc/xC622YZX/Pix-Pin-2025-09-26-10-23-56.png" width="80%">
-</p>
+## Introduction
+**LLaVA-OneVision1.5** introduces a novel family of **fully open-source** Large Multimodal Models (LMMs) that achieves **state-of-the-art performance**  with substantially **lower cost** through training on **native resolution** images.
+
+- **Superior Performance**
+A family of fully open-source large multimodal models demonstrating 
+    - Superior performance across multiple multimodal benchmarks
+    - outperforming **Qwen2.5-VL** in most evaluation tasks.
+
+- **High-Quality Data at Scale**
+Meticulously curated **pre-training and SFT data** with rigorous filtering and quality control.
+    - Concept-balanced, highly diverse, high-quality caption data
+    - Comprehensive instruction fine-tuning data covering a wide range of tasks
+
+- **Ultra-Efficient Training Framework** Complete end-to-end training framework designed for maximum efficiency:
+    - $16000 total budget for full model training on A100 GPUs  ($0.6 per GPU/Hour)
+    - Built on **MegatronLM** with support for **MoE**, **FP8**, and **long sequence parallelization**
+    - Optimized codebase for cost-effective scaling
+
+
+- **Fully Open Framework** for community access and reproducibility:
+    - High-quality pre-training & SFT data
+    - Complete training framework & code
+    - Training recipes & configurations
+    - Comprehensive training logs & metrics
 
 </div>
 
