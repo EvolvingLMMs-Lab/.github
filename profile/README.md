@@ -26,29 +26,23 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 </div>
 
 ## Introduction
-**LLaVA-OneVision1.5** introduces a novel family of **fully open-source** Large Multimodal Models (LMMs) that achieves **state-of-the-art performance**  with substantially **lower cost** through training on **native resolution** images.
+**LLaVA-OneVision-1.5** introduces a family of fully open-source large multimodal models (LMMs) that operate on **native-resolution images**, achieve **state-of-the-art** performance, and require comparatively **lower training costs**.
 
-- **Superior Performance**
-A family of fully open-source large multimodal models demonstrating 
-    - Superior performance across multiple multimodal benchmarks
-    - outperforming **Qwen2.5-VL** in most evaluation tasks.
+#### **Superior Performance**
+  - The model leads on multiple multimodal benchmarks and generally surpasses Qwen2.5-VL.
+  - Training on native-resolution images significantly improves its visual understanding.
 
-- **High-Quality Data at Scale**
-Meticulously curated **pre-training and SFT data** with rigorous filtering and quality control.
-    - Concept-balanced, highly diverse, high-quality caption data
-    - Comprehensive instruction fine-tuning data covering a wide range of tasks
+#### **High-Quality Data at Scale**
+  - The pretraining corpus comprises large-scale, concept-balanced, diverse, and high-quality captions curated with strict filtering and quality control.
+  - The instruction-tuning dataset is comprehensive and covers a wide range of tasks.
 
-- **Ultra-Efficient Training Framework** Complete end-to-end training framework designed for maximum efficiency:
-    - $16000 total budget for full model training on A100 GPUs  ($0.6 per GPU/Hour)
-    - Built on **MegatronLM** with support for **MoE**, **FP8**, and **long sequence parallelization**
-    - Optimized codebase for cost-effective scaling
+#### **Ultra-Efficient Training Framework**
+  - The end-to-end training cost is about $16,000 on A100 GPUs at roughly $0.60 per GPU-hour.
+  - The system is built on Megatron-LM with support for MoE, FP8, and long-sequence parallelism, and the codebase is optimized for cost-effective scaling.
 
-
-- **Fully Open Framework** for community access and reproducibility:
-    - High-quality pre-training & SFT data
-    - Complete training framework & code
-    - Training recipes & configurations
-    - Comprehensive training logs & metrics
+#### **Fully Open Framework**
+  - The project releases high-quality pretraining and SFT datasets along with the complete training framework, configurations, and recipes.
+  - It also provides detailed training logs and metrics to enable reproducibility and community adoption.
 
 </div>
 
