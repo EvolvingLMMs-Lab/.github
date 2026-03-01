@@ -16,21 +16,21 @@ A fully open-source family of Large Multimodal Models achieving state-of-the-art
 
 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-15-68d385fe73b50bd22de23713) | 🖥️ [Demo](https://huggingface.co/spaces/lmms-lab/LLaVA-OneVision-1.5) | 📄 [Tech Report](https://github.com/anxiangsir/asset/blob/main/paper/LLaVA_OneVision_1_5.pdf)
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 653
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 653 `NeurIPS 2025`
 
 NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities rather than bolting them together, resulting in a more coherent and capable vision-language model.
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 269
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 269 `CVPR 2025`
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Provides an efficient visual backbone that aligns with how information is compressed and represented, improving downstream LMM performance.
 
 🌐 [Project Page](https://lmms-lab.com/onevision-encoder/index.html)
 
-### [Otter](https://github.com/EvolvingLMMs-Lab/Otter) ⭐ 3.3k
+### [Otter](https://github.com/EvolvingLMMs-Lab/Otter) ⭐ 3.3k `IEEE TPAMI 2025`
 
 A multi-modal model based on OpenFlamingo (the open-sourced version of DeepMind's Flamingo), trained on the MIMIC-IT dataset. Demonstrates improved instruction-following capabilities across vision-language tasks and served as an early exploration into instruction-tuned multimodal models.
 
-### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 402
+### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 402 `TMLR 2025`
 
 Transfers long-context capabilities from language to vision. Enables multimodal models to handle extended visual contexts by leveraging the long-context understanding already developed in LLMs, achieving strong performance on long-form video and multi-image understanding tasks.
 
