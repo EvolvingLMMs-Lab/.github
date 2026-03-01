@@ -2,6 +2,8 @@
 
 We are a group of researchers, with a focus on large multimodal models (LMMs). We wish to bring insights to community with our research. 
 
+[Discord](https://discord.gg/8xTM6jWnXa)
+
 ![GitHub User's stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab)
 
 ## [LLaVA-OneVision 1.5](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5/tree/main)
