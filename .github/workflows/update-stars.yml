@@ -1,0 +1,89 @@
+name: Update README stars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update GitHub star counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+
+          readme_path = "profile/README.md"
+          token = os.environ["GITHUB_TOKEN"]
+
+          heading_pattern = re.compile(
+              r"^(#{3,4} \[[^\]]+\]\(https://github\.com/([^/\s)]+)/([^/\s)]+)\) ⭐ )([0-9.]+k?)",
+              re.MULTILINE,
+          )
+
+          def format_stars(count):
+              if count >= 1000:
+                  value = count / 1000
+                  if value >= 10 or value.is_integer():
+                      return f"{value:.0f}k"
+                  return f"{value:.1f}k"
+              return str(count)
+
+          def fetch_stars(owner, repo):
+              request = urllib.request.Request(
+                  f"https://api.github.com/repos/{owner}/{repo}",
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/vnd.github+json",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                      "User-Agent": "readme-star-updater",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  data = json.load(response)
+              return int(data["stargazers_count"])
+
+          with open(readme_path, "r", encoding="utf-8") as file:
+              content = file.read()
+
+          cache = {}
+
+          def replace(match):
+              prefix, owner, repo, old_value = match.groups()
+              key = (owner, repo)
+              if key not in cache:
+                  cache[key] = format_stars(fetch_stars(owner, repo))
+              return f"{prefix}{cache[key]}"
+
+          updated = heading_pattern.sub(replace, content)
+
+          if updated != content:
+              with open(readme_path, "w", encoding="utf-8") as file:
+                  file.write(updated)
+          PY
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "No star count changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "docs: update README star counts"
+          git push
