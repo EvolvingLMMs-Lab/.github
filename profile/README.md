@@ -68,7 +68,7 @@ An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn se
 
 📄 [Paper](https://arxiv.org/abs/2506.20670) | 🌐 [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) | 🤗 [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) | 🤗 [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
 
-### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 251 `CVPR 2026`
+### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 252 `CVPR 2026`
 
 Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploits LMMs' inherent temporal grounding ability as a native video cropping tool, enabling a global-to-local reasoning loop where the model skims globally and examines relevant clips for details until answers are grounded in visual evidence.
 
@@ -104,7 +104,7 @@ A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon op
 
 ## 🌍 Datasets & Benchmarks
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 444 `CVPR 2025`
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 445 `CVPR 2025`
 
 For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
 
