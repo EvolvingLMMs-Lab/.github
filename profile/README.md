@@ -16,13 +16,13 @@ An open-source Large Multimodal Model series built for image, video, and spatial
 
 🌐 [Website](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) | 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-20-68122573323d7c9fce4bd436) | 📄 [Tech Report](https://arxiv.org/abs/2605.25979)
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 864 `ICLR 2026`
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 865 `ICLR 2026`
 
 NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities within a dense, monolithic model architecture, rather than bolting a vision encoder onto a language model. With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.
 
 📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 381
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 382
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
 
