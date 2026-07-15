@@ -16,13 +16,13 @@ An open-source Large Multimodal Model series built for image, video, and spatial
 
 🌐 [Website](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) | 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-20-68122573323d7c9fce4bd436) | 📄 [Tech Report](https://arxiv.org/abs/2605.25979)
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 865 `ICLR 2026`
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 866 `ICLR 2026`
 
 NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities within a dense, monolithic model architecture, rather than bolting a vision encoder onto a language model. With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.
 
 📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 384
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 383
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
 
@@ -34,7 +34,7 @@ A multi-modal model based on OpenFlamingo (the open-sourced version of DeepMind'
 
 📄 [Otter Paper](https://arxiv.org/abs/2305.03726) | 📄 [MIMIC-IT Paper](https://arxiv.org/abs/2306.05425) | 🤗 [Models](https://huggingface.co/luodian/OTTER-Image-MPT7B) | 🤗 [MIMIC-IT Dataset](https://huggingface.co/datasets/pufanyi/MIMICIT)
 
-### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 406 `TMLR 2025`
+### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 407 `TMLR 2025`
 
 Transfers long-context capabilities from language to vision. LongVA can process 2000 frames or over 200K visual tokens, achieving state-of-the-art performance on Video-MME among 7B models — demonstrating that long context capability can zero-shot transfer from language to vision.
 
@@ -104,7 +104,7 @@ A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon op
 
 ## 🌍 Datasets & Benchmarks
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 445 `CVPR 2025`
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 446 `CVPR 2025`
 
 For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
 
