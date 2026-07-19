@@ -16,7 +16,7 @@ An open-source Large Multimodal Model series built for image, video, and spatial
 
 🌐 [Website](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) | 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-20-68122573323d7c9fce4bd436) | 📄 [Tech Report](https://arxiv.org/abs/2605.25979)
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 867 `ICLR 2026`
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 868 `ICLR 2026`
 
 NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities within a dense, monolithic model architecture, rather than bolting a vision encoder onto a language model. With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.
 
@@ -94,7 +94,7 @@ For the first time in the multimodal domain, demonstrates that features learned 
 
 ## 🔬 Training Frameworks
 
-### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 804
+### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 805
 
 A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon optimizer, Liger kernel, packing, and expert parallelism across models like Qwen2.5-VL, Qwen3-VL, BAGEL, WanVideo, and more. Lean, flexible, and built for hacking at scale.
 
