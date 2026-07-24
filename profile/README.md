@@ -16,7 +16,7 @@ An open-source Large Multimodal Model series built for image, video, and spatial
 
 🌐 [Website](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) | 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-20-68122573323d7c9fce4bd436) | 📄 [Tech Report](https://arxiv.org/abs/2605.25979)
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 870 `ICLR 2026`
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 875 `ICLR 2026`
 
 NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities within a dense, monolithic model architecture, rather than bolting a vision encoder onto a language model. With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.
 
@@ -62,7 +62,7 @@ A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of mul
 
 📄 [Paper](https://arxiv.org/abs/2511.16334) | 🌐 [Project Page](https://evolvinglmms-lab.github.io/OpenMMReasoner/) | 🤗 [Models](https://huggingface.co/OpenMMReasoner/OpenMMReasoner-RL) | 🤗 [Data](https://huggingface.co/collections/lmms-lab/openmmreasoner) | 🌐 [Blog](https://www.lmms-lab.com/posts/openmmreasoner/)
 
-### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 469
+### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 470
 
 An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn search with real-world multimodal search tools. Integrates both image and text search capabilities, training models to autonomously reason about when and how to invoke external search tools.
 
@@ -94,7 +94,7 @@ For the first time in the multimodal domain, demonstrates that features learned 
 
 ## 🔬 Training Frameworks
 
-### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 809
+### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 812
 
 A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon optimizer, Liger kernel, packing, and expert parallelism across models like Qwen2.5-VL, Qwen3-VL, BAGEL, WanVideo, and more. Lean, flexible, and built for hacking at scale.
 
@@ -104,7 +104,7 @@ A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon op
 
 ## 🌍 Datasets & Benchmarks
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 450 `CVPR 2025`
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 451 `CVPR 2025`
 
 For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
 
