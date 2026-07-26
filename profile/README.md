@@ -10,7 +10,7 @@ We are a group of researchers, with a focus on large multimodal models (LMMs). W
 
 ## 🏗️ Models & Training
 
-### [LLaVA-OneVision 1.5/2.0 Series](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2) ⭐ 1.1k
+### [LLaVA-OneVision 1.5/2.0 Series](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2) ⭐ 1.2k
 
 An open-source Large Multimodal Model series built for image, video, and spatial understanding. LLaVA-OneVision 1.5 provides a fully open training stack with native-resolution images, MegatronLM-based scaling, MoE, FP8, long sequence parallelization, and released data, recipes, code, and logs. LLaVA-OneVision 2.0 advances the series with an 8B model and a codec-centric visual processing design, improving native-resolution perception, efficient visual token usage, long-video comprehension, and spatial understanding.
 
@@ -68,7 +68,7 @@ An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn se
 
 📄 [Paper](https://arxiv.org/abs/2506.20670) | 🌐 [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) | 🤗 [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) | 🤗 [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
 
-### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 255 `CVPR 2026`
+### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 256 `CVPR 2026`
 
 Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploits LMMs' inherent temporal grounding ability as a native video cropping tool, enabling a global-to-local reasoning loop where the model skims globally and examines relevant clips for details until answers are grounded in visual evidence.
 
