@@ -22,7 +22,7 @@ NEO Series: Native Vision-Language Models built from first principles. Rethinks 
 
 📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 389
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 390
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
 
@@ -62,7 +62,7 @@ A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of mul
 
 📄 [Paper](https://arxiv.org/abs/2511.16334) | 🌐 [Project Page](https://evolvinglmms-lab.github.io/OpenMMReasoner/) | 🤗 [Models](https://huggingface.co/OpenMMReasoner/OpenMMReasoner-RL) | 🤗 [Data](https://huggingface.co/collections/lmms-lab/openmmreasoner) | 🌐 [Blog](https://www.lmms-lab.com/posts/openmmreasoner/)
 
-### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 471
+### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 472
 
 An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn search with real-world multimodal search tools. Integrates both image and text search capabilities, training models to autonomously reason about when and how to invoke external search tools.
 
