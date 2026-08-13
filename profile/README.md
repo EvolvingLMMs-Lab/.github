@@ -56,7 +56,7 @@ A speed-run investigation of R1's paradigm applied to multimodal models. Built o
 
 🤗 [Models](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) | 🤗 [Datasets](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) | 📊 [Wandb Logs](https://api.wandb.ai/links/libo0013/lz60ml8h)
 
-### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) ⭐ 165 `CVPR 2026`
+### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) ⭐ 166 `CVPR 2026`
 
 A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of multimodal reasoning. Constructs an 874K-sample cold-start dataset with step-by-step validation and a 74K-sample RL dataset, achieving 11.6% improvement over Qwen2.5-VL-7B-Instruct across nine multimodal reasoning benchmarks.
 
