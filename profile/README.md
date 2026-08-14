@@ -34,7 +34,7 @@ A multi-modal model based on OpenFlamingo (the open-sourced version of DeepMind'
 
 📄 [Otter Paper](https://arxiv.org/abs/2305.03726) | 📄 [MIMIC-IT Paper](https://arxiv.org/abs/2306.05425) | 🤗 [Models](https://huggingface.co/luodian/OTTER-Image-MPT7B) | 🤗 [MIMIC-IT Dataset](https://huggingface.co/datasets/pufanyi/MIMICIT)
 
-### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 408 `TMLR 2025`
+### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 409 `TMLR 2025`
 
 Transfers long-context capabilities from language to vision. LongVA can process 2000 frames or over 200K visual tokens, achieving state-of-the-art performance on Video-MME among 7B models — demonstrating that long context capability can zero-shot transfer from language to vision.
 
