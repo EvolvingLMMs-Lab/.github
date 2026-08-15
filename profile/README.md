@@ -22,7 +22,7 @@ NEO Series: Native Vision-Language Models built from first principles. Rethinks 
 
 📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 394
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 395
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
 
@@ -34,13 +34,13 @@ A multi-modal model based on OpenFlamingo (the open-sourced version of DeepMind'
 
 📄 [Otter Paper](https://arxiv.org/abs/2305.03726) | 📄 [MIMIC-IT Paper](https://arxiv.org/abs/2306.05425) | 🤗 [Models](https://huggingface.co/luodian/OTTER-Image-MPT7B) | 🤗 [MIMIC-IT Dataset](https://huggingface.co/datasets/pufanyi/MIMICIT)
 
-### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 409 `TMLR 2025`
+### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 410 `TMLR 2025`
 
 Transfers long-context capabilities from language to vision. LongVA can process 2000 frames or over 200K visual tokens, achieving state-of-the-art performance on Video-MME among 7B models — demonstrating that long context capability can zero-shot transfer from language to vision.
 
 🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 473
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 471
 
 The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
 
@@ -56,7 +56,7 @@ A speed-run investigation of R1's paradigm applied to multimodal models. Built o
 
 🤗 [Models](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) | 🤗 [Datasets](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) | 📊 [Wandb Logs](https://api.wandb.ai/links/libo0013/lz60ml8h)
 
-### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) ⭐ 166 `CVPR 2026`
+### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) ⭐ 167 `CVPR 2026`
 
 A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of multimodal reasoning. Constructs an 874K-sample cold-start dataset with step-by-step validation and a 74K-sample RL dataset, achieving 11.6% improvement over Qwen2.5-VL-7B-Instruct across nine multimodal reasoning benchmarks.
 
@@ -68,7 +68,7 @@ An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn se
 
 📄 [Paper](https://arxiv.org/abs/2506.20670) | 🌐 [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) | 🤗 [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) | 🤗 [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
 
-### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 259 `CVPR 2026`
+### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 260 `CVPR 2026`
 
 Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploits LMMs' inherent temporal grounding ability as a native video cropping tool, enabling a global-to-local reasoning loop where the model skims globally and examines relevant clips for details until answers are grounded in visual evidence.
 
@@ -84,7 +84,7 @@ The unified evaluation toolkit for large multimodal models, covering 100+ tasks 
 
 🏠 [Homepage](https://www.lmms-lab.com/) | 📚 [Documentation](https://github.com/EvolvingLMMs-Lab/lmms-eval/blob/main/docs/README.md) | 📦 [PyPI](https://pypi.org/project/lmms-eval)
 
-### [Multimodal-SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) ⭐ 199 `ICCV 2025`
+### [Multimodal-SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) ⭐ 200 `ICCV 2025`
 
 For the first time in the multimodal domain, demonstrates that features learned by Sparse Autoencoders (SAEs) in a smaller LMM can be interpreted by a larger LMM. Provides a complete auto-interpretation pipeline for analyzing open-semantic features and steering model behavior.
 
