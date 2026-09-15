@@ -40,7 +40,7 @@ Transfers long-context capabilities from language to vision. LongVA can process 
 
 🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 472
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 473
 
 The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
 
@@ -68,7 +68,7 @@ An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn se
 
 📄 [Paper](https://arxiv.org/abs/2506.20670) | 🌐 [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) | 🤗 [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) | 🤗 [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
 
-### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 263 `CVPR 2026`
+### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 264 `CVPR 2026`
 
 Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploits LMMs' inherent temporal grounding ability as a native video cropping tool, enabling a global-to-local reasoning loop where the model skims globally and examines relevant clips for details until answers are grounded in visual evidence.
 
