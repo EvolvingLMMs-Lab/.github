@@ -40,7 +40,7 @@ Transfers long-context capabilities from language to vision. LongVA can process 
 
 🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 479
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 481
 
 The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
 
@@ -104,7 +104,7 @@ A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon op
 
 ## 🌍 Datasets & Benchmarks
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 461 `CVPR 2025`
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 462 `CVPR 2025`
 
 For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
 
