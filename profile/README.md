@@ -22,7 +22,7 @@ NEO Series: Native Vision-Language Models built from first principles. Rethinks 
 
 📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 400
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 401
 
 A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
 
@@ -40,7 +40,7 @@ Transfers long-context capabilities from language to vision. LongVA can process 
 
 🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 481
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 487
 
 The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
 
@@ -62,7 +62,7 @@ A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of mul
 
 📄 [Paper](https://arxiv.org/abs/2511.16334) | 🌐 [Project Page](https://evolvinglmms-lab.github.io/OpenMMReasoner/) | 🤗 [Models](https://huggingface.co/OpenMMReasoner/OpenMMReasoner-RL) | 🤗 [Data](https://huggingface.co/collections/lmms-lab/openmmreasoner) | 🌐 [Blog](https://www.lmms-lab.com/posts/openmmreasoner/)
 
-### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 486
+### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 487
 
 An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn search with real-world multimodal search tools. Integrates both image and text search capabilities, training models to autonomously reason about when and how to invoke external search tools.
 
@@ -104,7 +104,7 @@ A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon op
 
 ## 🌍 Datasets & Benchmarks
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 462 `CVPR 2025`
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 464 `CVPR 2025`
 
 For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
 
