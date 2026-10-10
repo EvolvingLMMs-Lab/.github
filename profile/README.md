@@ -40,7 +40,7 @@ Transfers long-context capabilities from language to vision. LongVA can process 
 
 🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 521
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 522
 
 The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
 
@@ -84,7 +84,7 @@ The unified evaluation toolkit for large multimodal models, covering 100+ tasks 
 
 🏠 [Homepage](https://www.lmms-lab.com/) | 📚 [Documentation](https://github.com/EvolvingLMMs-Lab/lmms-eval/blob/main/docs/README.md) | 📦 [PyPI](https://pypi.org/project/lmms-eval)
 
-### [Multimodal-SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) ⭐ 202 `ICCV 2025`
+### [Multimodal-SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) ⭐ 203 `ICCV 2025`
 
 For the first time in the multimodal domain, demonstrates that features learned by Sparse Autoencoders (SAEs) in a smaller LMM can be interpreted by a larger LMM. Provides a complete auto-interpretation pipeline for analyzing open-semantic features and steering model behavior.
 
@@ -94,7 +94,7 @@ For the first time in the multimodal domain, demonstrates that features learned 
 
 ## 🔬 Training Frameworks
 
-### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 830
+### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 829
 
 A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon optimizer, Liger kernel, packing, and expert parallelism across models like Qwen2.5-VL, Qwen3-VL, BAGEL, WanVideo, and more. Lean, flexible, and built for hacking at scale.
 
