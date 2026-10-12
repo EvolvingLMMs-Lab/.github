@@ -78,7 +78,7 @@ Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploit
 
 ## 📊 Evaluation & Analysis
 
-### [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) ⭐ 4.4k
+### [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) ⭐ 4.5k
 
 The unified evaluation toolkit for large multimodal models, covering 100+ tasks across text, image, video, and audio. Supports 30+ models with reproducible, efficient, and statistically grounded benchmarking. Available on PyPI and translated into 17 languages.
 
