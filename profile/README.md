@@ -1,111 +1,122 @@
-# LMMs-Lab: Building Multimodal Intelligence
+# LMMs-Lab
 
-We are a group of researchers, with a focus on large multimodal models (LMMs). We wish to bring insights to community with our research. 
+LMMs-Lab is a research group working on large multimodal models. The public repositories cover models, training recipes, reasoning and reinforcement learning, evaluation, a shared training engine, and datasets. This page maps those entry points for someone arriving for the first time. The public name is LMMs-Lab, and model and dataset releases also appear under lmms-lab.
 
-[Discord](https://discord.gg/8xTM6jWnXa)
+[![GitHub stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab?style=flat&label=GitHub%20stars)](https://github.com/EvolvingLMMs-Lab)
 
-![GitHub User's stars](https://img.shields.io/github/stars/EvolvingLMMs-Lab)
+## Start here
 
----
+| If you want to | Go to |
+| --- | --- |
+| Read what the group publishes | [Website](https://www.lmms-lab.com/) and [posts](https://www.lmms-lab.com/posts/) |
+| Evaluate a model | [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) and the [documentation](https://docs.lmms-lab.com/docs/latest) |
+| Train or fine-tune | [lmms-engine](https://github.com/EvolvingLMMs-Lab/lmms-engine), then the recipe in a model repository |
+| Follow the current model line | [LLaVA-OneVision](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2), [NEO](https://github.com/EvolvingLMMs-Lab/NEO), and [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) |
+| Browse released weights and data | [Hugging Face](https://huggingface.co/lmms-lab) |
+| Join the public chat | [Discord](https://discord.gg/zdkwKUqrPy) |
 
-## 🏗️ Models & Training
+The portfolio below is grouped into models and training, reasoning and reinforcement learning, evaluation, training frameworks, and datasets.
 
-### [LLaVA-OneVision 1.5/2.0 Series](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2) ⭐ 1.2k
+## Models and training
 
-An open-source Large Multimodal Model series built for image, video, and spatial understanding. LLaVA-OneVision 1.5 provides a fully open training stack with native-resolution images, MegatronLM-based scaling, MoE, FP8, long sequence parallelization, and released data, recipes, code, and logs. LLaVA-OneVision 2.0 advances the series with an 8B model and a codec-centric visual processing design, improving native-resolution perception, efficient visual token usage, long-video comprehension, and spatial understanding.
+### [LLaVA-OneVision](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2)
 
-🌐 [Website](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) | 🤗 [Models & Datasets](https://huggingface.co/collections/lmms-lab/llava-onevision-20-68122573323d7c9fce4bd436) | 📄 [Tech Report](https://arxiv.org/abs/2605.25979)
+LLaVA-OneVision is an open model series for image, video, and spatial understanding. The 1.5 technical report describes a training release built around an 85-million-example concept-balanced mid-training set, a 22-million-example instruction set, and an end-to-end training framework, with 4-billion- and 8-billion-parameter models and a later reinforcement-learning post-training stage. LLaVA-OneVision-2 is an 8-billion-parameter model that uses OneVision-Encoder, windowed attention, and native-resolution inputs. Its technical report describes codec-stream tokenization, which spends a limited visual-token budget on motion and residual evidence, and a shared 3D rotary position embedding for codec canvases, sampled frames, and images. The 2.0 repository releases models, datasets, the report, and training code, including a Megatron quickstart.
 
-### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) ⭐ 921 `ICLR 2026`
+1.5: [Paper](https://arxiv.org/abs/2509.23661) · [Post](https://www.lmms-lab.com/posts/llava_onevision_1_5/) · [Models and data](https://huggingface.co/collections/lmms-lab/llava-onevision-15) · [Reinforcement-learning code](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5-RL)
 
-NEO Series: Native Vision-Language Models built from first principles. Rethinks the multimodal architecture by deeply integrating vision and language capabilities within a dense, monolithic model architecture, rather than bolting a vision encoder onto a language model. With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.
+2.0: [Paper](https://arxiv.org/abs/2605.25979) · [Project page](https://evolvinglmms-lab.github.io/LLaVA-OneVision-2/) · [Post](https://www.lmms-lab.com/posts/llava_onevision_2/) · [Model](https://huggingface.co/lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct) · [Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-2-Data)
 
-📄 [Paper](https://arxiv.org/abs/2510.14979) | 🤗 [Models](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089)
+### [NEO](https://github.com/EvolvingLMMs-Lab/NEO) (ICLR 2026)
 
-### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder) ⭐ 405
+NEO is a family of native vision-language models. Pixel and word representations sit in one dense network. The ICLR 2026 paper reports that, with 390 million image-text examples, the model learns visual perception from scratch and narrows the gap with strong modular vision-language models. The repository README also lists later models and training code in the same series.
 
-A vision encoder designed around codec-aligned sparsity as a foundational principle for multimodal intelligence. Abandons uniform computation to selectively encode only 3.1%-25% of regions rich in signal entropy, consistently outperforming Qwen3-ViT and SigLIP2 across 16 image, video, and document understanding benchmarks despite using substantially fewer visual tokens.
+[Paper](https://arxiv.org/abs/2510.14979) · [Models](https://huggingface.co/collections/Paranioar/neo1-0)
 
-🌐 [Project Page](https://www.lmms-lab.com/onevision-encoder/index.html) | 📄 [Paper](https://arxiv.org/abs/2602.08683) | 🤗 [Models](https://huggingface.co/collections/lmms-lab-encoder/onevision-encoder)
+### [OneVision-Encoder](https://github.com/EvolvingLMMs-Lab/OneVision-Encoder)
 
-### [Otter](https://github.com/EvolvingLMMs-Lab/Otter) ⭐ 3.4k `IEEE TPAMI 2025`
+OneVision-Encoder is a vision encoder built around codec-style patch selection. The technical report describes selection of the high-entropy regions of an input, a range it reports as 3.1% to 25%, and a shared 3D rotary position embedding for the resulting irregular token layout. Training uses a cluster-discrimination objective over more than one million semantic concepts. When the encoder is placed in a language model, the report compares it with Qwen3-ViT and SigLIP2 on 16 image, video, and document benchmarks and reports higher scores with fewer visual tokens.
 
-A multi-modal model based on OpenFlamingo (the open-sourced version of DeepMind's Flamingo), trained on the MIMIC-IT dataset with 2.8M multimodal in-context instruction-response pairs. Demonstrates improved instruction-following and in-context learning capabilities across vision-language tasks and served as an early exploration into instruction-tuned multimodal models.
+[Paper](https://arxiv.org/abs/2602.08683) · [Post](https://www.lmms-lab.com/posts/onevision_encoder/) · [Models](https://huggingface.co/collections/lmms-lab-encoder/onevision-encoder)
 
-📄 [Otter Paper](https://arxiv.org/abs/2305.03726) | 📄 [MIMIC-IT Paper](https://arxiv.org/abs/2306.05425) | 🤗 [Models](https://huggingface.co/luodian/OTTER-Image-MPT7B) | 🤗 [MIMIC-IT Dataset](https://huggingface.co/datasets/pufanyi/MIMICIT)
+### [Otter](https://github.com/EvolvingLMMs-Lab/Otter) (IEEE TPAMI 2025)
 
-### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) ⭐ 413 `TMLR 2025`
+Otter is a multimodal model based on OpenFlamingo. It is trained on MIMIC-IT, a dataset of 2.8 million multimodal in-context instruction-response pairs in which images or video are part of the context. The release studies instruction following and in-context learning for vision-language tasks.
 
-Transfers long-context capabilities from language to vision. LongVA can process 2000 frames or over 200K visual tokens, achieving state-of-the-art performance on Video-MME among 7B models — demonstrating that long context capability can zero-shot transfer from language to vision.
+[Paper](https://arxiv.org/abs/2305.03726) · [Journal version](https://doi.org/10.1109/tpami.2025.3571946) · [MIMIC-IT paper](https://arxiv.org/abs/2306.05425) · [Model](https://huggingface.co/luodian/OTTER-Image-MPT7B) · [Dataset](https://huggingface.co/datasets/pufanyi/MIMICIT)
 
-🌐 [Blog](https://lmms-lab.github.io/posts/longva/) | 📄 [Paper](https://arxiv.org/abs/2406.16852) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longva-667538e09329dbc7ea498057) | 🎥 [Demo](https://longva-demo.lmms-lab.com/)
+### [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) (TMLR 2025)
 
-### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything) ⭐ 528
+LongVA studies long-context transfer from language to vision. The project reports that extending the language backbone's context lets the model take 2,000 frames, or more than 200,000 visual tokens. The TMLR paper reports state-of-the-art Video-MME and MLVU results among models around 7 billion parameters at the time of publication, using denser frame sampling, and introduces V-NIAH, a visual needle-in-a-haystack probe.
 
-The Relate Anything Model (RAM) takes an image as input and leverages SAM to identify corresponding masks, then reasons about relationships between any detected objects. Built on the Panoptic Scene Graph Generation work (ECCV 2022).
+[Paper](https://arxiv.org/abs/2406.16852) · [Post](https://www.lmms-lab.com/posts/longva/) · [Models](https://huggingface.co/collections/lmms-lab/longva)
 
-🤗 [Demo](https://huggingface.co/spaces/mmlab-ntu/relate-anything-model) | 📦 [PSG Dataset](https://psgdataset.org/)
+### [RelateAnything](https://github.com/EvolvingLMMs-Lab/RelateAnything)
 
----
+Relate Anything takes an image, uses the Segment Anything model to produce object masks, and predicts relationships between those objects. It builds on panoptic scene graph generation (ECCV 2022).
 
-## 🧠 Reasoning & Reinforcement Learning
+[Demo](https://huggingface.co/spaces/mmlab-ntu/relate-anything-model) · [PSG dataset](https://psgdataset.org/)
 
-### [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) ⭐ 1.6k
+## Reasoning and reinforcement learning
 
-A speed-run investigation of R1's paradigm applied to multimodal models. Built on top of `open-r1` and `trl`, this project adds multimodal model training with the GRPO algorithm, open-sourcing 8K multimodal RL training examples, trained models, and training scripts for community study on multimodal reasoning.
+### [OpenR1-Multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal)
 
-🤗 [Models](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) | 🤗 [Datasets](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) | 📊 [Wandb Logs](https://api.wandb.ai/links/libo0013/lz60ml8h)
+OpenR1-Multimodal is a public study of the R1 training pattern on multimodal models. It adds multimodal training with Group Relative Policy Optimization (GRPO) on top of open-r1 and TRL, and releases about 8,000 multimodal reinforcement-learning examples, trained Qwen2-VL models, and the training scripts.
 
-### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) ⭐ 167 `CVPR 2026`
+[Models](https://huggingface.co/lmms-lab/Qwen2-VL-2B-GRPO-8k) · [Data](https://huggingface.co/datasets/lmms-lab/multimodal-open-r1-8k-verified) · [Training logs](https://api.wandb.ai/links/libo0013/lz60ml8h)
 
-A fully transparent two-stage recipe (SFT + RL) for pushing the frontiers of multimodal reasoning. Constructs an 874K-sample cold-start dataset with step-by-step validation and a 74K-sample RL dataset, achieving 11.6% improvement over Qwen2.5-VL-7B-Instruct across nine multimodal reasoning benchmarks.
+### [OpenMMReasoner](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner) (CVPR 2026)
 
-📄 [Paper](https://arxiv.org/abs/2511.16334) | 🌐 [Project Page](https://evolvinglmms-lab.github.io/OpenMMReasoner/) | 🤗 [Models](https://huggingface.co/OpenMMReasoner/OpenMMReasoner-RL) | 🤗 [Data](https://huggingface.co/collections/lmms-lab/openmmreasoner) | 🌐 [Blog](https://www.lmms-lab.com/posts/openmmreasoner/)
+OpenMMReasoner publishes a two-stage recipe for multimodal reasoning: supervised fine-tuning, then reinforcement learning. The paper describes an 874,000-example cold-start set with step-by-step checks and a 74,000-example reinforcement-learning set. It reports an 11.6% improvement over Qwen2.5-VL-7B-Instruct across nine multimodal reasoning benchmarks.
 
-### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) ⭐ 490
+[Paper](https://arxiv.org/abs/2511.16334) · [Project page](https://evolvinglmms-lab.github.io/OpenMMReasoner/) · [Post](https://www.lmms-lab.com/posts/openmmreasoner/) · [Model](https://huggingface.co/OpenMMReasoner/OpenMMReasoner-RL) · [Data](https://huggingface.co/collections/lmms-lab/openmmreasoner)
 
-An end-to-end RL framework that enables LMMs to perform on-demand, multi-turn search with real-world multimodal search tools. Integrates both image and text search capabilities, training models to autonomously reason about when and how to invoke external search tools.
+### [MMSearch-R1](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1) (ACL 2026)
 
-📄 [Paper](https://arxiv.org/abs/2506.20670) | 🌐 [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) | 🤗 [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) | 🤗 [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
+MMSearch-R1 is an end-to-end reinforcement-learning framework that trains a multimodal model to decide when to call image and text search tools, and how to use the results across multiple turns.
 
-### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) ⭐ 274 `CVPR 2026`
+[Paper](https://arxiv.org/abs/2506.20670) · [Post](https://www.lmms-lab.com/posts/mmsearch_r1/) · [Model](https://huggingface.co/lmms-lab/MMSearch-R1-7B) · [Data](https://huggingface.co/datasets/lmms-lab/FVQA)
 
-Incentivizes "Thinking with Long Videos" via native tool calling. LongVT exploits LMMs' inherent temporal grounding ability as a native video cropping tool, enabling a global-to-local reasoning loop where the model skims globally and examines relevant clips for details until answers are grounded in visual evidence.
+### [LongVT](https://github.com/EvolvingLMMs-Lab/LongVT) (CVPR 2026)
 
-📄 [Paper](https://arxiv.org/abs/2511.20785) | 🌐 [Project Page](https://evolvinglmms-lab.github.io/LongVT/) | 🤗 [Models](https://huggingface.co/collections/lmms-lab/longvt) | 🤗 [Data](https://huggingface.co/datasets/longvideotool/LongVT-Parquet) | 🖥️ [Demo](https://huggingface.co/spaces/longvideotool/LongVT-Demo) | 🌐 [Blog](https://www.lmms-lab.com/posts/longvt/)
+LongVT trains a model to inspect long videos with a cropping tool. The model looks across the video, uses its temporal grounding to select a clip and resample frames, and repeats that loop until the answer is tied to the retrieved frames. The paper describes this as thinking with long videos through native tool calling.
 
----
+[Paper](https://arxiv.org/abs/2511.20785) · [Project page](https://evolvinglmms-lab.github.io/LongVT/) · [Post](https://www.lmms-lab.com/posts/longvt/) · [Models](https://huggingface.co/collections/lmms-lab/longvt) · [Data](https://huggingface.co/datasets/longvideotool/LongVT-Parquet) · [Demo](https://huggingface.co/spaces/longvideotool/LongVT-Demo)
 
-## 📊 Evaluation & Analysis
+## Evaluation
 
-### [LMMS-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) ⭐ 4.5k
+### [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
-The unified evaluation toolkit for large multimodal models, covering 100+ tasks across text, image, video, and audio. Supports 30+ models with reproducible, efficient, and statistically grounded benchmarking. Available on PyPI and translated into 17 languages.
+lmms-eval is an evaluation toolkit for large multimodal models across text, image, video, and audio. The repository documents more than 100 tasks and more than 30 model backends, and the README is translated into 17 languages. The project describes its aims as reproducible runs, faster evaluation, and statistics such as confidence intervals and paired comparisons. A public site offers a hosted way to submit evaluation jobs.
 
-🏠 [Homepage](https://www.lmms-lab.com/) | 📚 [Documentation](https://github.com/EvolvingLMMs-Lab/lmms-eval/blob/main/docs/README.md) | 📦 [PyPI](https://pypi.org/project/lmms-eval)
+[Documentation](https://docs.lmms-lab.com/docs/latest) · [PyPI](https://pypi.org/project/lmms-eval) · [Hosted evaluation](https://eval.lmms-lab.com/)
 
-### [Multimodal-SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) ⭐ 203 `ICCV 2025`
+### [Multimodal SAE](https://github.com/EvolvingLMMs-Lab/multimodal-sae) (ICCV 2025)
 
-For the first time in the multimodal domain, demonstrates that features learned by Sparse Autoencoders (SAEs) in a smaller LMM can be interpreted by a larger LMM. Provides a complete auto-interpretation pipeline for analyzing open-semantic features and steering model behavior.
+This project studies sparse autoencoders inside multimodal models. The ICCV 2025 paper presents an automatic interpretation pipeline in which features learned on a smaller model are described by a larger one, and shows that those features can steer model outputs. The reported analysis uses LLaVA-NeXT.
 
-📄 [Paper](https://arxiv.org/abs/2411.14982) | 🤗 [Models & Data](https://huggingface.co/collections/lmms-lab/llava-sae-674026e4e7bc8c29c70bc3a3)
+[Paper](https://arxiv.org/abs/2411.14982) · [Models and data](https://huggingface.co/collections/lmms-lab/multimodal-sae)
 
----
+## Training frameworks
 
-## 🔬 Training Frameworks
+### [lmms-engine](https://github.com/EvolvingLMMs-Lab/lmms-engine)
 
-### [LMMs-Engine](https://github.com/EvolvingLMMs-Lab/lmms-engine) ⭐ 833
+lmms-engine is a training codebase for multimodal models. The repository documents Fully Sharded Data Parallel (FSDP2), Ulysses sequence parallelism, tensor parallelism, expert parallelism, the Muon optimizer, Liger kernels, and sequence packing. Published examples include Qwen2.5-VL, Qwen3-VL, BAGEL, and WanVideo, among other models.
 
-A simple, unified multimodal model training engine. Supports FSDP2, USP, Muon optimizer, Liger kernel, packing, and expert parallelism across models like Qwen2.5-VL, Qwen3-VL, BAGEL, WanVideo, and more. Lean, flexible, and built for hacking at scale.
+[Documentation](https://lmms-engine.readthedocs.io/en/latest/) · [PyPI](https://pypi.org/project/lmms-engine) · [Docker](https://hub.docker.com/r/kcz358/lmms-engine/tags)
 
-🐳 [Docker](https://hub.docker.com/r/fatbao55/lmms-engine/tags) | 📦 [PyPI](https://pypi.org/project/lmms-engine)
+## Datasets
 
----
+### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) (CVPR 2025)
 
-## 🌍 Datasets & Benchmarks
+EgoLife records a week in which six people lived together, using AI glasses and synchronized third-person video. The paper describes about 300 hours of egocentric, multiview, multimodal daily-life video. The release includes EgoGPT, for clip-level understanding, and EgoRAG, for question answering over longer stretches with a hierarchical memory.
 
-### [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife) ⭐ 474 `CVPR 2025`
+[Paper](https://arxiv.org/abs/2503.03803) · [Project page](https://egolife-ai.github.io/) · [Data](https://huggingface.co/collections/lmms-lab/egolife)
 
-For one week, six individuals lived together, capturing every moment through AI glasses, creating the EgoLife dataset. Includes EgoGPT (omni-modal clip-level understanding) and EgoRAG (long-context QA with hierarchical memory). Built to drive the future of egocentric AI life assistants.
+## The Harness
 
-📄 [Paper](https://arxiv.org/abs/2503.03803) | 🌐 [Project Page](https://egolife-ai.github.io/) | 🤗 [Data](https://huggingface.co/collections/lmms-lab/egolife-67c04574c2a9b64ab312c342)
+The public site and documentation describe The Harness, an agent runtime. In that description, a person states a task in ordinary language, a language model writes short programs, and the runtime executes those programs in an environment the agent can observe. Documented environments include a computer desktop and a background browser, along with a terminal interface, skills, and packages.
+
+The GitHub repository linked from the site is not publicly readable. On PyPI, `the-harness` 0.0.0 describes itself as a placeholder with no functionality, and its project page says the first functional release is still in preparation.
+
+[Site](https://harness.lmms-lab.com/) · [Documentation](https://harness.lmms-lab.com/docs/) · [PyPI record](https://pypi.org/project/the-harness/)
